@@ -1,0 +1,77 @@
+﻿<view caption="gdCipher" height="400" showCaptionAlways="true" width="400"
+  onopen="view_onOpen()">
+    <div height="124" width="386" x="6" y="3" background="#C0C0E0"/>
+    <img enabled="true" height="87" hitTest="htclient" name="left_aureola"
+      width="99" visible="false" x="5" y="4" src="stock_images\left_aureola.png"/>
+    <img enabled="true" height="84" hitTest="htclient" name="right_aureola"
+      width="95" visible="false" x="113" y="5" src="stock_images\right_aureola.png"/>
+    <button height="81" name="szyfruj_btn" tooltip="encode text" width="90"
+      x="15" y="6" onclick="Szyfruj()" downImage="stock_images\enc_mousehit.PNG"
+      image="enc_normal.PNG" overImage="enc_mouseover.PNG"/>
+    <button height="81" name="deszyfruj_btn" tooltip="decode text" width="90"
+      x="110" y="6" onclick="Deszyfruj()" downImage="stock_images\dec_mousehit.PNG"
+      image="dec_normal.PNG" overImage="dec_mouseover.PNG"/>
+    <div height="259" width="387" x="5" y="134" background="#C0C0E0"/>
+    <edit height="74" name="TekstSzyfrowany" width="376" x="10" y="183"
+      onfocusin="TekstSzyfrowany_onfocusin()" onfocusout="TekstSzyfrowany_onfocusout()"
+      onkeydown="TekstSzyfrowany_checkEnter()" size="16" wordwrap="true"
+     />
+    <edit height="74" name="TekstZaszyfrowany" width="374" x="10" y="309"
+      onfocusin="TekstZaszyfrowany_onfocusin()" onfocusout="TekstZaszyfrowany_onfocusout()"
+      onkeydown="TekstZaszyfrowany_checkEnter()" size="16"
+      wordwrap="true"/>
+    <checkbox height="20" name="rot13" width="20" x="220" y="8" onclick="SelectOther()"
+      downImage="stock_images\chk_down.png" image="stock_images\chk_normal.png"
+      overImage="stock_images\chk_over.png" checkedDownImage="stock_images\chk_chk_down.png"
+      checkedImage="stock_images\chk_chk_normal.png" checkedOverImage="stock_images\chk_chk_over.png"
+     />
+    <label height="19" width="113" x="242" y="10" bold="true" size="12"
+     >Rot-13
+    </label>
+    <checkbox height="20" name="xor" width="20" x="220" y="32" onclick="SelectXor()"
+      downImage="stock_images\chk_down.png" image="stock_images\chk_normal.png"
+      overImage="stock_images\chk_over.png" checkedDownImage="stock_images\chk_chk_down.png"
+      checkedImage="stock_images\chk_chk_normal.png" checkedOverImage="stock_images\chk_chk_over.png"
+      value="false"/>
+    <label height="19" width="111" x="244" y="34" bold="true" size="12"
+     >XOR
+    </label>
+    <checkbox height="20" name="cesar" width="20" x="220" y="80" onclick="SelectOther()"
+      downImage="stock_images\chk_down.png" image="stock_images\chk_normal.png"
+      overImage="stock_images\chk_over.png" checkedDownImage="stock_images\chk_chk_down.png"
+      checkedImage="stock_images\chk_chk_normal.png" checkedOverImage="stock_images\chk_chk_over.png"
+      value="false"/>
+    <label height="19" name="label_s5" width="146" x="243" y="78" bold="true"
+      size="12">Caesar cipher
+    </label>
+    <edit enabled="false" height="25" hitTest="htnowhere" name="key" opacity="100"
+      width="151" x="62" y="99" size="14"/>
+    <label height="23" name="label_s3" width="53" x="5" y="100" size="14"
+     >Key
+    </label>
+    <img height="40" width="300" x="7" y="139" src="stock_images\caprionbar.png"/>
+    <label height="31" name="label_s1" width="261" x="21" y="141" bold="true"
+      color="#FFFF00" size="20">Encoded text
+    </label>
+    <img height="40" width="300" x="10" y="261" src="stock_images\caprionbar.png"/>
+    <label height="30" name="label_s2" width="259" x="23" y="263" bold="true"
+      color="#FFFF00" size="20">Decoded text
+    </label>
+    <checkbox height="20" name="morse" width="20" x="220" y="56" onclick="SelectOther()"
+      downImage="stock_images\chk_down.png" image="stock_images\chk_normal.png"
+      overImage="stock_images\chk_over.png" checkedDownImage="stock_images\chk_chk_down.png"
+      checkedImage="stock_images\chk_chk_normal.png" checkedOverImage="stock_images\chk_chk_over.png"
+      value="false"/>
+    <label height="20" name="label_s4" width="146" x="243" y="57" bold="true"
+      size="12">Morse code
+    </label>
+    <checkbox height="20" name="polyb" width="20" x="220" y="103" onclick="SelectOther()"
+      downImage="stock_images\chk_down.png" image="stock_images\chk_normal.png"
+      overImage="stock_images\chk_over.png" checkedDownImage="stock_images\chk_chk_down.png"
+      checkedImage="stock_images\chk_chk_normal.png" checkedOverImage="stock_images\chk_chk_over.png"
+      value="false"/>
+    <label height="20" name="label_s6" width="148" x="242" y="101" bold="true"
+      size="12">Polybius square
+    </label>
+    <script src="main.js" />
+</view>
