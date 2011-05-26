@@ -1,0 +1,12 @@
+﻿<gadget minimumGoogleDesktopVersion="4.2006.505.0">
+	<about>
+		<name>&PLUGIN_TITLE;</name>
+		<description>&PLUGIN_DESCRIPTION;</description>
+		<aboutText>&ABOUT_TEXT;</aboutText>
+		<smallIcon>small_icon.gif</smallIcon>
+		<icon>large_icon.gif</icon>
+		<version>1.0.0.2</version>
+		<authorWebsite>http://desktop.google.com/plugins.html</authorWebsite>
+		<id>CAFFAEA1-D5B1-4116-8769-0AA71A405715</id>
+		<copyright>Copyright (c) 2006 warlock24</copyright><author>warlock24</author><authorEmail>warlock24@gmail.com</authorEmail></about>
+</gadget>

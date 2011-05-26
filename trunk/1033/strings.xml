@@ -1,0 +1,20 @@
+﻿<strings>
+
+<PLUGIN_TITLE>gdCipher</PLUGIN_TITLE>
+<PLUGIN_DESCRIPTION>Gadget for simple cryptographic operations.</PLUGIN_DESCRIPTION>
+<ABOUT_TEXT>Google Desktop gadget for simple cryptographic operations
+Copyright 2006 warlock24
+:D
+</ABOUT_TEXT>
+
+<s1>Encoded text</s1>
+<s2>Decoded text</s2>
+<s3>Key</s3>
+<s4>Morse code</s4>
+<s5>Caesar cipher</s5>
+<s6>Polybius square</s6>
+<s8>Nothing to encrypt :). Decoded text field is empty.</s8>
+<s9>Nothing to decrypt :). Encoded text field is empty.</s9>
+<s10>Key must contain only digits!</s10>
+</strings>
+

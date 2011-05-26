@@ -1,0 +1,21 @@
+﻿<strings>
+
+<PLUGIN_TITLE>gdCipher</PLUGIN_TITLE>
+<PLUGIN_DESCRIPTION>Gadget do przeprowadzania prostych operacji kryptograficznych.</PLUGIN_DESCRIPTION>
+<ABOUT_TEXT>Gadget do przeprowadzania prostych operacji kryptograficznych
+Copyright 2006 warlock24
+:D
+</ABOUT_TEXT>
+
+<s1>Tekst rozkodowany</s1>
+<s2>Tekst zakodowany</s2>
+<s3>Klucz</s3>
+<s4>Alfabet Morse'a</s4>
+<s5>Szyfr Cezara</s5>
+<s6>Kwadrat Polybiusa</s6>
+<s8>Brak tekstu do zaszyfrowania :). Pole tekst rozkodowany jest puste.</s8>
+<s9>Brak tekstu do odszyfrowania :). Pole tekst zakodowany jest puste.</s9>
+<s10>Klucz musi zawierać tylko cyfry!</s10>
+
+</strings>
+

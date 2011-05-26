@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   width="210mm"
+   height="297mm"
+   sodipodi:docbase="F:\projekty\gdCipher\dgCipher\Grafika"
+   sodipodi:docname="mylogo.svg">
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5">
+    <linearGradient
+       id="linearGradient2181">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop2183" />
+      <stop
+         style="stop-color:#3f0005;stop-opacity:0.67010307;"
+         offset="1"
+         id="stop2185" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2181"
+       id="radialGradient2187"
+       cx="282.78717"
+       cy="495.22925"
+       fx="282.78717"
+       fy="495.22925"
+       r="72.251968"
+       gradientTransform="matrix(1,0,0,0.435308,0,279.6522)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="721"
+     inkscape:window-width="815"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="4.0207896"
+     inkscape:cx="289.29635"
+     inkscape:cy="556.13814"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="g2225" />
+  <g
+     id="g2225">
+    <path
+       d="M 354.53914 495.22925 A 71.751968 30.951828 0 1 1  211.0352,495.22925 A 71.751968 30.951828 0 1 1  354.53914 495.22925 z"
+       sodipodi:ry="30.951828"
+       sodipodi:rx="71.751968"
+       sodipodi:cy="495.22925"
+       sodipodi:cx="282.78717"
+       id="path1306"
+       style="opacity:1;fill:url(#radialGradient2187);fill-opacity:1.0;stroke:#000000;stroke-linejoin:round;stroke-opacity:1;fill-rule:nonzero"
+       sodipodi:type="arc" />
+    <flowRoot
+       id="flowRoot2189"
+       xml:space="preserve"><flowRegion
+         id="flowRegion2191"><rect
+           y="485.80679"
+           x="254.17892"
+           height="13.430198"
+           width="65.161331"
+           id="rect2193" /></flowRegion><flowPara
+         id="flowPara2195">wa</flowPara></flowRoot>    <flowRoot
+       style="font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+       id="flowRoot2205"
+       xml:space="preserve"><flowRegion
+         id="flowRegion2207"><rect
+           style="font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+           y="490.28354"
+           x="257.90955"
+           height="12.684075"
+           width="61.430717"
+           id="rect2209" /></flowRegion><flowPara
+         id="flowPara2213">warlock24</flowPara></flowRoot>    <flowRoot
+       style="font-size:14;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr;text-anchor:middle;font-family:Baskerville Old Face"
+       transform="translate(14.42504,-55.71045)"
+       id="flowRoot2215"
+       xml:space="preserve"><flowRegion
+         id="flowRegion2217"><rect
+           style="font-size:14;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:100%;writing-mode:lr;text-anchor:middle;font-family:Baskerville Old Face"
+           y="536.54309"
+           x="233.28751"
+           height="36.808689"
+           width="69.886772"
+           id="rect2219" /></flowRegion><flowPara
+         id="flowPara2221">warlock24</flowPara><flowPara
+         style="font-family:Baskerville Old Face;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:10;text-anchor:middle;text-align:center;writing-mode:lr;line-height:100%"
+         id="flowPara2223">productions</flowPara></flowRoot>  </g>
+</svg>
