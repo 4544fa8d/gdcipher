@@ -1,0 +1,1 @@
+Plugin do programu Google Desktop, którego zadaniem jest szyfrowanie / odczyfrowanie krótkich tekstów.
